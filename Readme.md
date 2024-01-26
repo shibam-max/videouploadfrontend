@@ -23,6 +23,7 @@ sudo docker build -t <Image Name> .
 sudo docker run -d --network="host" <Image Name>
 
 ## Endpoints created:
+
 1.To save the video in server:
 http://localhost:8082/api/save(Post Method)
 
