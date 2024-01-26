@@ -1,8 +1,8 @@
-##Prerequisites
+## Prerequisites
 1. Docker should be installed in the system
 2. Mysql should be installed
 
-#DB Configurations
+## DB Configurations
 1. Login to the MySql console using command "mysql -u root -p"
 2. create a database using command "create database <database_name>;"
 
@@ -64,7 +64,7 @@ http://localhost:8082/api/merge-videos(POST method)
 3. Postman
 4. Any browser(chrome/firefox etc.)
 
-##Technologies used
+## Technologies used
 1. Java
 2. Spring boot
 3. React Js
