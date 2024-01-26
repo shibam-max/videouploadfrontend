@@ -25,22 +25,30 @@ sudo docker run -d --network="host" <Image Name>
 ## Endpoints created:
 1.To save the video in server:
 http://localhost:8082/api/save(Post Method)
+
 2. To check the list of the videos saved in the DB:
 http://localhost:8082/api/all(GET method)
-3. To list the video based on the ID:
+
+4. To list the video based on the ID:
 http://localhost:8082/api/get/{id}(GET method)
-4. To upload the video:
+
+6. To upload the video:
 http://localhost:8082/api/upload/{id}(POST method)
-5. To play the videos:
+
+8. To play the videos:
 http://localhost:8082/api/play/{id}(GET method)
-6. To Delete the videos:
+
+10. To Delete the videos:
 http://localhost:8082/api/{id}(Delete method)
-7. To update the videos:
+
+12. To update the videos:
 http://localhost:8082/api/update/{id}(Update method)
-8. To merge the videos:
+
+14. To merge the videos:
 http://localhost:8082/api/merge-videos(POST method)
-9. Test the backend APIS through postman/any other tool.
-10. Backend should be up and running and listening on port 8082
+
+16. Test the backend APIS through postman/any other tool.
+17. Backend should be up and running and listening on port 8082
 
 ## Frontend installation
 1. Clone the repository using the command "git clone https://github.com/shibam-max/videouploadfrontend.git"
