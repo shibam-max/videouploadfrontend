@@ -16,8 +16,6 @@ COPY . .
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
  
-# Define environment variable
-ENV REACT_APP_BASE_URL=http://localhost:8082/api
- 
+
 # Run npm start when the container launches
 CMD ["npm", "start"]
